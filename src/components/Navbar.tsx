@@ -14,6 +14,7 @@ const navLinks = [
   { path: "/certifications", label: "Certifications" },
   { path: "/case-studies", label: "Case Studies" },
   { path: "/compare", label: "Compare" },
+  { path: "/label-analyzer", label: "Food Label Analyzer" },
 ];
 
 export function Navbar() {

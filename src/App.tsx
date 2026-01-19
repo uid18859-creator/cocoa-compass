@@ -13,6 +13,7 @@ import Health from "./pages/Health";
 import Certifications from "./pages/Certifications";
 import CaseStudies from "./pages/CaseStudies";
 import Compare from "./pages/Compare";
+import FoodLabelAnalyzer from "./pages/FoodLabelAnalyzer";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/compare" element={<Compare />} />
+            <Route path="/label-analyzer" element={<FoodLabelAnalyzer />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
